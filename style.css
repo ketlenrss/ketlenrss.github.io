@@ -1,0 +1,97 @@
+
+
+body {
+    background: url(/img/papel-aquarela-amarelo.jpg);
+    background-size: cover;
+}
+
+<!--menu navegar pelas paginas-->
+
+.mainmenubtn {
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: goldenrod;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: goldenrod;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+<!-- css para titulo-->
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.buddhism-title {
+    font-size: 2em;
+    color: #333;
+    margin-top: 50px;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    text-align: center; /* Centraliza o texto */
+}
+
+
+
+.white-board {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content; /* Ajusta a largura do quadro ao conteúdo */
+    margin: 0 auto; /* Centraliza o quadro na página */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #555;
+}
+
+.subheader {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
